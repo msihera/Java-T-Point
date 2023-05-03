@@ -1,4 +1,4 @@
-package program.a_basic;
+package main.java.program.a_basic;
 
 public class FibonacciExample {
     public static void main(String args[])

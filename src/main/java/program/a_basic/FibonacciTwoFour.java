@@ -1,4 +1,4 @@
-package program.a_basic;
+package main.java.program.a_basic;
 
 public class FibonacciTwoFour {
     public static void main(String[]arg){
@@ -9,6 +9,14 @@ public class FibonacciTwoFour {
             System.out.print(" "+sum);
             firstNum=secondNum;
             secondNum=sum;
+        }
+    }
+
+    public static class Ascii {
+        public static void main(String[]args){
+            char avalueString='a';
+            int avalInt=avalueString;
+            System.out.println(avalueString+": Value Shows as ASCII :"+avalInt);
         }
     }
 }
